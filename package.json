@@ -9,7 +9,7 @@
   "scripts": {
     "build:dev": "NODE_ENV=development webpack",
     "build:prod": "NODE_ENV=production webpack",
-    "build:test": "NODE_ENV=test webpack --watch"
+    "build:test": "NODE_ENV=test webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -21,7 +21,7 @@
     "@types/webpack": "^4.39.1",
     "babel-loader": "^8.0.6",
     "es3-safe-recast": "^3.0.0",
-    "sinon": "4.0.0",
+    "sinon": "^7.4.1",
     "terser-webpack-plugin": "^1.4.1",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
